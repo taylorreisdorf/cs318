@@ -1,0 +1,19 @@
+body {
+    background-color:rgb(172, 218, 241);
+    width: 800px;
+
+} 
+
+figcaption {
+font-style: italic; 
+color: rgb(124, 124, 124)
+}
+
+figure {
+    width: 600px;
+    margin: auto;
+}
+
+img {
+    width: 600px;
+}
