@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(206, 206, 206);
+} 
+
+* {
+    box-sizing: border-box;
+}
+
+  .stamp { 
+      width: 300px;
+      height: 300px;
+      border-style: dashed;
+      border-color: rgb(42, 180, 42);
+      border-width: 4px;
+      margin: 10px;
+      box-shadow: 4px 1px 5px;
+      display: inline-block;
+      background-position: top right, center;
+      background-repeat: no-repeat, no-repeat;
+    
+  }
+
+  #colombia {
+    background-image:  url("Flag_of_Colombia.png"), url("colombia.jpg");
+    background-size: auto 100px, auto 300px;
+    
+  
+  }
+
+  #ireland {
+    background-image:  url("irelandflag.jpg"), url("ireland.jpg");
+    background-size: auto 100px, auto 300px;
+  }
+
+  #japan {
+    background-image: url("japanflag.jpg"), url("japan.jpg");
+    background-size: auto 100px, auto 300px;
+  }
+
+  #australia {
+    background-image: url("australiaflag.jpg"), url("australia.jpg");
+    background-size: auto 100px, auto 300px;
+  }
