@@ -1,0 +1,62 @@
+* {
+    
+}
+
+body {
+    size: 14px;
+}
+
+#astold {
+    font-weight: bold; }
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+#picture1 {
+    
+    background-image: url("https://www.nps.gov/grca/planyourvisit/images/Yaki-5197.jpg?maxwidth=650&autorotate=false");
+    width:400px;
+    height: 200px;
+    background-repeat: no-repeat;
+    padding: 10px;
+}
+
+#picture2 {
+    background-image: url("https://thumbs-prod.si-cdn.com/nA72TLLeitGZA4HUTR5_qhV4-Os=/800x600/filters:no_upscale()/https://public-media.smithsonianmag.com/filer/3c/2a/3c2af135-c333-4262-a5d9-91d596494c1e/mars_surface.jpg");
+    width:500px;
+    height: 300px;
+    background-repeat: no-repeat;
+    padding: 10px;
+}
+
+#picture3 {
+    background-image: url("http://www.visitcalifornia.com/sites/default/files/styles/welcome_image/public/VC_Kidifornia_SupportingContent_MylesMcGuinness_SC-Redwoods9MQ_4891_1280x640_0.jpg");
+    width: 400px;
+    height: 200px;
+    background-repeat: no-repeat;
+    padding: 10px;
+}
+
+#picture4 {
+    background-image: url("https://vacationspotindonesia.files.wordpress.com/2015/06/green-canyon-pangandaran-11.jpg");
+    width: 500px;
+    height: 300px;
+    background-repeat: no-repeat;
+    padding: 10px;
+}
+
+.pquote {
+    background-color: rgba(126, 92, 29, 0.555);
+    width: 200px;
+    font-size: 20px;
+    color: rgb(230, 230, 139);
+    float: right;
+    border-radius: 10%;
+}
+
+
