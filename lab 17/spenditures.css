@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+tr {
+    height: 25px;
+}
+
+th {
+    text-align: left;
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(163, 163, 163);
+}
+
+tr:nth-child(even) {
+    background-color: rgb(235, 235, 235);
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+header {
+    color: white;
+    background-color: rgb(105, 1, 1);
+    margin-top: -22px;
+    padding: 3px;
+    margin-left: -8px;
+    margin-right: -20px;
+}
+
+nav>ul {
+    margin-top: 1px;
+    margin-left: -10px;
+    margin-right: -10px;
+    background-color: navy;
+    padding-left: 0;
+}
+
+.menu {
+    background-color: navy;
+    list-style-type: none;
+    color: white;
+    display: inline-block;
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    padding: 10px;
+    position: relative;
+}
+
+.menu:hover {
+    background-color: rgb(68, 68, 68);
+    cursor: pointer;
+}
+
+.menu:hover ul {
+    display: block;
+}
+
+.menu>ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: rgb(68, 68, 68);
+    box-shadow: 2px 3px 2px black;
+    list-style-type: none;
+    padding-left: 0;
+    display: none;
+}
+
+.menu>ul>li {
+    border-bottom: 1px solid white;
+}
+
+.menu>ul>li:last-child {
+    border-bottom: none;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: rgb(177, 171, 171);
+}
+
+header .menu {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    nav {
+        display: none;
+    }
+
+    header .menu {
+        position: absolute;
+        right: 0;
+        top: 0;
+        border-left: 1px;
+        border-right: 0;
+        border-top: 0;
+        border-bottom: 0;
+        size: 50px;
+        display: block;
+        height: 71px;
+        width: 40px;
+
+    }
+
+    header .menu li {
+        height: 40px;
+    }
+
+    header .menu ul {
+        margin-top: 0;
+        left: auto;
+        width: 80px;
+    }
+}
