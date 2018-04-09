@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+#parent {
+    position: relative;
+    display: inline-block;
+}
+
+.tab {
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    display: inline-block;
+    padding: 10px;
+    background-color: rgb(255, 255, 152);
+    width: 150px;
+    outline: none;
+}
+
+.tab:hover {
+    cursor: pointer;
+}
+
+.tab:focus {
+    background-color: rgb(255, 174, 82);
+}
+
+#panel0 {
+    background-color: rgb(255, 255, 152);
+    display: block;
+}
+
+.panel {
+    background-color: rgb(255, 174, 82);
+    position: absolute;
+    display: none;
+    left: 0;
+}
+
+#rainbow:focus ~ #panel1 {
+    display: block;
+  }
+
+#sunshine:focus ~ #panel2 {
+    display: block;
+  }
+
+#happy:focus ~ #panel3 {
+    display: block;
+  }
