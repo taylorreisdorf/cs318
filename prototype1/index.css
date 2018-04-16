@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(163, 163, 255);
+}
+
+.link {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(95, 95, 95);
+    padding: 40px;
+    width: 100px;
+}
+
+#image {
+    width: 200px;
+    height: auto;
+}
