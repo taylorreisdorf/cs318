@@ -30,7 +30,7 @@ img:nth-child(4n+1) {
 #flowerbed:hover img:hover {
     opacity: 1;
     transform: scale(1.5) rotate(180deg);
-    z-index: 10;
+    z-index: 11;
 }
 
 p {
