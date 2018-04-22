@@ -78,5 +78,13 @@ h1 {
     padding-top: 20px;
 }
 
+@media (max-width: 600px) {
+    body {
+        background-color: lightblue;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 
 

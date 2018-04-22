@@ -86,3 +86,11 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: rgb(80, 127, 255);
 }
+
+@media (max-width: 600px) {
+    body {
+        background-color: lightblue;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
