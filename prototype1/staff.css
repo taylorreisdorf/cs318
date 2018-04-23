@@ -73,7 +73,7 @@ figure figcaption {
 }
 
 h1 {
-    text-align: center;
+    
     position: relative;
     padding-top: 20px;
 }
@@ -81,6 +81,7 @@ h1 {
 @media (max-width: 600px) {
     body {
         background-color: lightblue;
+        font-size: 12px;
     }
 
     #content {
