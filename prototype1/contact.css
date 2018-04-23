@@ -83,6 +83,10 @@ input[type=submit] {
     cursor: pointer;
 }
 
+#additional {
+    padding: 15px;
+}
+
 input[type=submit]:hover {
     background-color: rgb(80, 127, 255);
 }
