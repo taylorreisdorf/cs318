@@ -4,13 +4,20 @@
 
 body {
     background-color: rgb(174, 183, 226);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+
+h1 {
+    font-size: 48px;
+    padding-left: 18px;
+    font-family: 'Playfair Display', serif;
 }
 
 #content {
    width: 900px;
    margin-left: auto;
    margin-right: auto;
+   font-size: 20px;
 }
 
 .link {
@@ -51,7 +58,6 @@ a:visited {
         margin-left: auto;
         margin-right: auto;
     }
-
 }
 
 #hack {
