@@ -133,3 +133,8 @@ figcaption {
 #flex img {
     width: 100%;
 }
+
+.staff {
+    font-weight: bold;
+    border: none;
+}
