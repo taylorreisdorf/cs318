@@ -138,3 +138,11 @@ figcaption {
     font-weight: bold;
     border: none;
 }
+
+.img {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    padding: 0;
+    box-shadow: 5px 5px rgb(156, 156, 156);
+}
